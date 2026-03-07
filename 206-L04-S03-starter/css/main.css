@@ -1,0 +1,60 @@
+/* Global styles that apply to mobile, tablet, and desktop */
+body,
+html {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/*Styles that apply to mobile devices */
+@media (max-width: 767px) {
+  .header {
+    color: #7b7d70;
+  }
+  .subheader {
+    color: #02cbd2;
+  }
+  .paragraph {
+    color: #6e4b61;
+  }
+}
+
+/* Styles that apply to tablets */
+@media (min-width: 768px) {
+  .header {
+    color: #4eafb8;
+  }
+  .subheader {
+    color: #fcc02a;
+  }
+  .paragraph {
+    color: #cabd61;
+  }
+}
+
+/* Styles that apply to desktop */
+@media (min-width: 1200px) {
+  .header {
+    color: #ff8641;
+  }
+  .subheader {
+    color: #7b8f8e;
+  }
+  .paragraph {
+    color: #c19374;
+  }
+}
